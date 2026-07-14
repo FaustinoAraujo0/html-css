@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de formulario</title>
+</head>
+<body>
+    <h1>Testando formulario</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required placeholder="Nome completo" maxlength="30" minlength="3">
+        </p>
+        <p>
+            <label for="inota">Nota</label>
+            <input type="number" name="nota" id="inota">
+        </p>
+        <p>
+            <label for="imes">Periodo Letivo</label>
+            <input type="month" name="Mes" id="imes" value="2020-07">
+        </p>
+        <p>
+            <label for="idia">Dia da prova</label>
+            <input type="date" name="dia" id="idia">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
